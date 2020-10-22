@@ -1,0 +1,16 @@
+2020-10-22T16:25:20+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/taskWoocommerce/wp-content/themes/myTheme/functions.php on line 42
+
+2020-10-22T16:25:22+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/taskWoocommerce/wp-content/themes/myTheme/functions.php on line 42
+
+2020-10-22T16:30:56+00:00 CRITICAL Uncaught Error: Call to a member function add_field() on null in /opt/lampp/htdocs/taskWoocommerce/wp-content/themes/myTheme/functions.php:20
+Stack trace:
+#0 /opt/lampp/htdocs/taskWoocommerce/wp-includes/class-wp-hook.php(287): yourprefix_register_comment_metabox('')
+#1 /opt/lampp/htdocs/taskWoocommerce/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/taskWoocommerce/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/taskWoocommerce/wp-content/plugins/cmb2/bootstrap.php(26): do_action('cmb2_admin_init')
+#4 /opt/lampp/htdocs/taskWoocommerce/wp-content/plugins/cmb2/init.php(165): cmb2_bootstrap()
+#5 /opt/lampp/htdocs/taskWoocommerce/wp-includes/class-wp-hook.php(287): CMB2_Bootstrap_270->include_cmb('')
+#6 /opt/lampp/htdocs/taskWoocommerce/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/taskWoocommerce/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/taskWoocommerce/wp-setti in /opt/lampp/htdocs/taskWoocommerce/wp-content/themes/myTheme/functions.php on line 20
+
