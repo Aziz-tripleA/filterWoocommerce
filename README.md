@@ -1,10 +1,12 @@
 # filterWoocommerce
+*filter products by city
 pulgins:
 1- woocommerce
 2- ACF
 
 # project details
 fist create custom theme called "myTheme";
+in ACF plugin i created a select field called cities for post type product
 create js file to handle ajax request called "custom_filteration.js";
 in functions.php 
   * first of all we need to call add_theme_support('woocommerce');
